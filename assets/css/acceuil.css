@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	line-height: 1.6;
+	color: #282923;
+}
+
+#showcase{
+	background-image: url("../images/acceuil/acc.jpg");
+	height: 100vh; /*viewport height*/
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+
+#showcase h1 {
+	font-size: 50px;
+}
+
+#showcase p {
+	font-size: 20px;
+}
+
+#showcase .button {
+	font-size: 18px;
+	text-decoration: none;
+	border: #282923 1px solid;
+	margin-top: 20px;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+#showcase .button:hover{
+	background: #282923;
+	color: #fff;
+}
